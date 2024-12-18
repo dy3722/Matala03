@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#262626"
     tools:context=".MainActivity">
 
     <ImageView
@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="download"
+        android:textColor="#B1B1B1"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
@@ -75,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="play"
+        android:textColor="#B1B1B1"
         app:layout_constraintEnd_toEndOf="@+id/imageView13"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
@@ -85,6 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="menu"
+        android:textColor="#B1B1B1"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
@@ -105,6 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Plot Summary"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
@@ -115,6 +119,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
         android:text="fhdifugjd dfjhjdfg jdf iog gdjdn df vdfh fvjhdf ndf hf vndgnd vuifgd vhjvdf v hcf djdf hdndxc cif cvkfdg d"
+        android:textColor="#B1B1B1"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -149,6 +154,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="9.5"
+        android:textColor="#B1B1B1"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
         app:layout_constraintTop_toBottomOf="@+id/imageView14" />
@@ -167,6 +173,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="Toy Story"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
@@ -177,6 +184,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Toy Story is a very fun movie"
+        android:textColor="#B1B1B1"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
